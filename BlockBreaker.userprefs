@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Brick.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Ball.cs" Line="39" Column="41" />
+      <File FileName="Assets\Scripts\Brick.cs" Line="52" Column="17" />
+      <File FileName="Assets\Scripts\LevelManager.cs" Line="23" Column="28" />
+      <File FileName="Assets\Scripts\Paddle.cs" Line="41" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\shash\Documents\Unity Projects\BlockBreaker\Assets\Scripts\Paddle.cs" line="41" column="23" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
