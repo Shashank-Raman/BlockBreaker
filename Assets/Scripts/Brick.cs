@@ -26,12 +26,6 @@ public class Brick : MonoBehaviour
 		timesHit = 0;
 		levelManager = GameObject.FindObjectOfType<LevelManager> ();
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		
-	}
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
@@ -46,7 +40,8 @@ public class Brick : MonoBehaviour
 	{
 		timesHit++;
 		int maxHits = hitSprites.Length + 1;
-		if (timesHit >= maxHits) {
+		if (timesHit >= maxHits)
+        {
 			breakableCount--;
 			levelManager.BrickDestroyed ();
 			PuffSmoke ();
@@ -76,11 +71,5 @@ public class Brick : MonoBehaviour
 		{
 			Debug.LogError ("Error: Brick sprite missing");
 		}
-	}
-
-	//TODO Remove this method once we can win the game
-	void SimulateWin()
-	{
-		levelManager.LoadNextLevel ();
 	}
 }
