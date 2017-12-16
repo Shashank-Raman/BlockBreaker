@@ -6,7 +6,7 @@ public class Brick : MonoBehaviour
 {
 	public AudioClip crack;
 	public Sprite[] hitSprites;
-	public static int breakableCount = 0;
+	public static int breakableCount = 0; //static in order to be accessible by LevelManager
 	public GameObject smoke;
 
 	private bool isBreakable;
@@ -66,7 +66,7 @@ public class Brick : MonoBehaviour
 		if (hitSprites [spriteIndex] != null) 
 		{
 			this.GetComponent<SpriteRenderer> ().sprite = hitSprites [spriteIndex];
-		} 
+		}
 		else
 		{
 			Debug.LogError ("Error: Brick sprite missing");
